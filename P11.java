@@ -12,11 +12,11 @@ public class P11 {
         Scanner sc = new Scanner(System.in);
         int number = sc.nextInt();
         System.out.println("Number pls: ");
-        int pozitie = 0;
+        int position = 0;
         for (int i=1; i<a.length;i++){
             if (number == a[i]){
-                pozitie = i+1;
-                System.out.println("The number"+ number + "is at position" + pozitie);}
+                position = i+1;
+                System.out.println("The number"+ number + "is at position" + position);}
             else
                 System.out.println("-1");
         }
